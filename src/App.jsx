@@ -24,7 +24,7 @@ function App() {
     element : <><Navbar /><Contact /></>
   }
 ], {
-  basename: "/Portfolio_Sameer_Hussain"
+  basename: process.env.VITE_BASE_PATH || "/Portfolio_Sameer_Hussain"
 })
   return (
     <>
